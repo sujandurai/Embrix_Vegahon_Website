@@ -1365,7 +1365,7 @@ input, select, textarea, button { font-family: inherit; }
 /* ============================================================
    AOS (simple fade)
    ============================================================ */
-[data-aos] { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+[data-aos] { opacity: 1; transform: translateY(0); transition: opacity 0.7s ease, transform 0.7s ease; }
 [data-aos].aos-animate { opacity: 1; transform: translateY(0); }
 [data-aos][data-aos-delay="50"] { transition-delay: 50ms; }
 [data-aos][data-aos-delay="100"] { transition-delay: 100ms; }
@@ -1376,9 +1376,9 @@ input, select, textarea, button { font-family: inherit; }
 [data-aos][data-aos-delay="350"] { transition-delay: 350ms; }
 [data-aos][data-aos-delay="400"] { transition-delay: 400ms; }
 [data-aos][data-aos-delay="600"] { transition-delay: 600ms; }
-[data-aos="fade-right"] { transform: translateX(-28px); }
+[data-aos="fade-right"] { transform: translateX(0); }
 [data-aos="fade-right"].aos-animate { transform: translateX(0); }
-[data-aos="fade-left"] { transform: translateX(28px); }
+[data-aos="fade-left"] { transform: translateX(0); }
 [data-aos="fade-left"].aos-animate { transform: translateX(0); }
 
 /* ============================================================
